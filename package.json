@@ -1,26 +1,29 @@
 {
-  "name": "justJoke",
-  "private": true,
+  "name": "justjoke",
   "version": "1.0.0",
-  "type": "module",
-  "description": "A Vue.js project for sharing jokes.",
-  "author": "Your Name",
-  "license": "MIT",
+  "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "serve": "webpack serve",
+    "dev": "webpack serve",
+    "build": "webpack --mode production"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.7.2",
-    "axios": "^1.6.2",
-    "normalize.css": "^8.0.1",
-    "vue": "^3.0.0",
-    "vue-router": "^4.5.0"
+    "axios": "^1.7.9",
+    "element-plus": "^2.3.4",
+    "vue": "^3.2.13",
+    "vue-router": "^4.0.3"
   },
   "devDependencies": {
-    "@vue/cli-service": "^4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "babel-eslint": "^10.1.0"
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.11.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^4.0.0",
+    "vue-loader": "^17.0.0",
+    "vue-style-loader": "^4.1.3",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
   }
 }

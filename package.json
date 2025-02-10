@@ -1,0 +1,26 @@
+{
+  "name": "justJoke",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A Vue.js project for sharing jokes.",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "axios": "^1.6.2",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.0.0",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0"
+  }
+}
